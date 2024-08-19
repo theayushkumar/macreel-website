@@ -949,7 +949,7 @@
     color: var(--bs-body);
     transition: 0.5s;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     margin: 0 0 10px 0;
 }
 
