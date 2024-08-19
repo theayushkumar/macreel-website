@@ -122,8 +122,8 @@
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Roboto', sans-serif;
     position: relative;
-    margin-right: 25px;
-    padding: 35px 0;
+    margin: 0 7px;
+    padding: 15px 10px;
     color: var(--bs-dark);
     font-size: 17px;
     font-weight: 400;
@@ -133,7 +133,7 @@
 
 .sticky-top.navbar-light .navbar-nav .nav-link,
 .sticky-top.navbar-light .navbar-nav .nav-item .nav-link {
-    padding: 20px 0;
+    padding: 15px 10px;
     color: var(--bs-dark);
 }
 
@@ -210,6 +210,10 @@
     .navbar-light .navbar-brand img {
         max-height: 45px;
     }
+
+    .navbar-light .navbar-brand {
+        width: auto;
+    }
 }
 
 @media (min-width: 992px) {
@@ -231,6 +235,7 @@
         left: 0;
         background-color: var(--bs-light);
         z-index: 999;
+        flex-direction: column;
     }
     
     .sticky-top.navbar-light {
