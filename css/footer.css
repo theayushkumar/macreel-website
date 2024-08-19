@@ -1,9 +1,10 @@
-.container {
-    background-color: darkslateblue;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-
 .bg-image {
-    background-image: url('../sahbag/8392161.jpg');
+    background-image: url('/img/bg-img-footer.jpeg');
     background-size: cover;
     /* Ensures the image covers the element */
     background-position: center;
@@ -31,7 +32,7 @@
 }
 
 .logo {
-    background-image: url('../sahbag/logo4.png');
+    background-image: url('/img/macreel.png');
     background-size: contain;
     /* Ensures the image covers the element */
     background-position: center;
@@ -44,7 +45,7 @@
 }
 
 .image1 {
-    background-image: url('../sahbag/06.jpg');
+    background-image: url('/img/bg-img-footer.jpeg');
     background-size: contain;
     /* Ensures the image covers the element */
     background-position: center;
@@ -58,7 +59,7 @@
 }
 
 .image2 {
-    background-image: url('../sahbag/18907.jpg');
+    background-image: url('/img/bg-img-footer.jpeg');
     background-size: cover;
     /* Ensures the image covers the element */
     background-position: center;
@@ -72,7 +73,7 @@
 }
 
 .image3 {
-    background-image: url('../sahbag/485654-PH172E-105.jpg');
+    background-image: url('/img/bg-img-footer.jpeg');
     background-size: cover;
     /* Ensures the image covers the element */
     background-position: center;
@@ -86,7 +87,7 @@
 }
 
 .image4 {
-    background-image: url('../sahbag/6349365.jpg');
+    background-image: url('/img/bg-img-footer.jpeg');
     background-size: cover;
     /* Ensures the image covers the element */
     background-position: center;
@@ -172,4 +173,12 @@
     font-size: 20px;
     color: white;
     padding-left: 5px;
+}
+
+.colour {
+    background-color: darkslateblue;
+}
+
+.border1 {
+    border-bottom: 2px solid gray;
 }
