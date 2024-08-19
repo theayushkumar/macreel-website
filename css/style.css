@@ -645,9 +645,7 @@
 }
 
 .certificate {
-    height: 60vh;
-    background: var(--bs-orange);
-    padding: 10px;
+    height: 530px;
 }
 
 /*** crtificate end  ***/
