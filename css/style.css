@@ -242,13 +242,13 @@
         width: 100%;
         top: 0;
         left: 0;
-        background-color: var(--bs-light);
+        background-color: var(--bs-white);
         z-index: 999;
     }
 
     .sticky-top.navbar-light {
         position: fixed;
-        background: var(--bs-light);
+        background: var(--bs-white);
     }
 
     .navbar-light .navbar-nav .nav-link::before {
