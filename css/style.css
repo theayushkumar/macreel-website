@@ -183,7 +183,44 @@
     opacity: 1;
 }
 
+.submenu {
+    display: none;
+}
+
+.dropdown-submenu:hover>.submenu {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: whitesmoke;
+    margin-top: -1px;
+    margin-left: 5px;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
 @media (max-width: 991.98px) {
+    .dropdown-submenu {
+        position: static; 
+    }
+
+    .dropdown-submenu:hover > .submenu {
+        display: block;
+        position: static;
+        margin-left: 0;
+        margin-top: 5px;
+        width: 100%;
+    }
+
+    .submenu {
+        display: none;
+    }
+
+    .dropdown-submenu.show > .submenu {
+        display: block;
+    }
     .navbar-light .navbar-nav .nav-link {
         flex-direction: row;
         gap: 10px;
