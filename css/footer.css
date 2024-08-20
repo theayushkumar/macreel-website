@@ -1,8 +1,8 @@
-
-.footerbox{
+.footerbox {
     width: 100%;
     height: auto;
 }
+
 .bg-image {
     background-image: url('/img/footer-bg.png');
     background-size: cover;
@@ -12,16 +12,19 @@
     filter: hue-rotate(-400deg);
     width: 100%;
 }
-.contentBox{
+
+.contentBox {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     background-color: #0f283e;
     padding: 100px;
     flex-wrap: wrap;
 }
-.box{
+
+.box {
     text-align: center;
 }
+
 @media (max-width: 768px) {
     .bg-image {
         height: 20vh;
@@ -49,50 +52,57 @@
 }
 
 .image1 {
-    background-image: url('/img/bg-img-footer.jpeg');
+    background-image: url(/img/service-5.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    margin-left: 30%;
 }
 
 .image2 {
-    background-image: url('/img/bg-img-footer.jpeg');
+    background-image: url(/img/service-3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    margin-left: 30%;
 }
 
 .image3 {
-    background-image: url('/img/bg-img-footer.jpeg');
+    background-image: url(/img/service-4.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    margin-left: 30%;
 }
 
 
 .image4 {
-    background-image: url('/img/bg-img-footer.jpeg');
+    background-image: url(/img/service-6.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    margin-left: 30%;
 }
 
 .border-text {
     color: white;
     border-bottom: dotted 2px gray;
     padding-bottom: 5px;
+    font-size: 14px;
+    font-family: math;
+    padding: 5px 0px;
 }
 
 .footer3 {
@@ -117,3 +127,4 @@
     color: white;
     padding-left: 5px;
 }
+
