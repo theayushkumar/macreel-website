@@ -3407,6 +3407,76 @@ fieldset:disabled .btn {
     border-color: #0e0e0e
 }
 
+/* sociel media */
+.btn-facebook {
+    color: #fff;
+    background-color: #0a7ae4;
+    border-color: #0a7ae4;
+}
+
+.btn-facebook:hover {
+    color: #fff;
+    background-color: #385591;
+    border-color: #385591;
+}
+.btn-twitter {
+    color: #fff;
+    background-color: #0e0e0e;
+    border-color: #0e0e0e;
+}
+
+.btn-twitter:hover {
+    color: #fff;
+    background-color: #0e0e0e;
+    border-color: #0e0e0e;
+}
+.btn-instagram {
+    color: #fff;
+    background-color: #e74764;
+    border-color: #e74764;;
+}
+
+.btn-instagram:hover {
+    color: #fff;
+    background-color: #e94b5b;
+    border-color: #e94b5b;
+}
+.btn-linkedin {
+    color: #fff;
+    background-color: #0076b3;
+    border-color: #0076b3;;
+}
+
+.btn-linkedin:hover {
+    color: #fff;
+    background-color: #5da2c5;
+    border-color: #5da2c5;
+}
+.btn-blogger {
+    color: #fff;
+    background-color: #ea740c;
+    border-color: #ea740c;
+}
+
+.btn-blogger:hover {
+    color: #fff;
+    background-color: #f79910;
+    border-color: #f79910;
+}
+.btn-skype {
+    color: #fff;
+    background-color: #00aae9;
+    border-color: #00aae9;
+}
+
+.btn-skype:hover {
+    color: #fff;
+    background-color: #2196f3;
+    border-color: #2196f3;
+}
+
+/* close sociel media */
+
 .btn-check:focus+.btn-dark,
 .btn-dark:focus {
     color: #fff;
@@ -8367,7 +8437,7 @@ fieldset:disabled .btn {
 }
 
 .bg-nav-light {
-    background-color: #7f8c8d !important
+    background-color: #213f5b !important
 }
 
 .bg-dark {
