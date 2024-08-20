@@ -65,6 +65,7 @@
     align-items: center;
     justify-content: center;
     font-weight: normal;
+    flex: none;
 }
 
 .btn.btn-primary {
