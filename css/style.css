@@ -123,7 +123,7 @@
     font-family: 'Roboto', sans-serif;
     position: relative;
     margin: 0 7px;
-    padding: 15px 10px;
+    padding: 3px 10px 10px;
     color: var(--bs-dark);
     font-size: 14px;
     font-weight: 400;
@@ -136,7 +136,7 @@
 
 .sticky-top.navbar-light .navbar-nav .nav-link,
 .sticky-top.navbar-light .navbar-nav .nav-item .nav-link {
-    padding: 15px 10px;
+    padding: 3px 10px 10px;
     color: var(--bs-dark);
 }
 
@@ -243,7 +243,6 @@
         left: 0;
         background-color: var(--bs-light);
         z-index: 999;
-        flex-direction: column;
     }
 
     .sticky-top.navbar-light {
