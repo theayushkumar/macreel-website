@@ -4120,6 +4120,7 @@ fieldset:disabled .btn {
     clear: both;
     font-weight: 400;
     color: #212529;
+    font-size: 14px;
     text-align: inherit;
     white-space: nowrap;
     background-color: rgba(0, 0, 0, 0);
@@ -4720,7 +4721,7 @@ fieldset:disabled .btn {
 
 .navbar-light .navbar-brand {
     color: rgba(0, 0, 0, .9);
-    width: 100%;
+    /* width: 100%; */
 }
 
 .navbar-light .navbar-brand:hover,
