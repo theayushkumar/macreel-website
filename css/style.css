@@ -482,6 +482,22 @@
 /*** Single Page Hero Header End ***/
 
 
+
+/***Organization structure**/
+.card-hover-effect {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.card-hover-effect:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    background-color: #2ecc71; 
+}
+
+/***Organization structure End**/
+
+
 /*** Service Start ***/
 .service .service-item {
     background: var(--bs-light);
