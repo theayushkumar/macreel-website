@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Macreel Infosoft</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid topbar bg-nav-light px-5 d-none d-lg-block">
+        <div class="row gx-0 align-items-center">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-flex flex-wrap">
+                    <a href="#" class="text-white small me-4">
+                        <i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
+                    <a href="tel:+01234567890" class="text-white small me-4"><i
+                            class="fas fa-phone-alt text-primary me-2"></i>+01234567890</a>
+                    <a href="mailto:example@gmail.com" class="text-white small me-0"><i
+                            class="fas fa-envelope text-primary me-2"></i>Example@gmail.com</a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+
+                <div class="justify-content-end ms-2 d-none d-lg-flex">
+                    <a class="btn  btn-md-square  btn-facebook rounded-circle mx-2" href="">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="btn btn-md-square btn-twitter rounded-circle mx-2" href="">
+                        <i class="fas fa-times"></i>
+                    </a>
+                    <a class="btn btn-md-square btn-instagram rounded-circle mx-2" href="">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="btn  btn-md-square  btn-linkedin rounded-circle mx-2" href="">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="btn btn-md-square btn-danger rounded-circle mx-2" href="">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a class="btn btn-md-square btn-blogger rounded-circle ms-2" href="">
+                        <i class="fab fa-blogger"></i>
+                    </a>
+                    <a class="btn btn-md-square btn-skype rounded-circle mx-2" href="">
+                        <i class="fab fa-skype"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <a href="index.html" class="navbar-brand p-0">
+                <img src="img/macreel-new-logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarCollapse">
+
+                <div class="navbar-nav ms-sm-3 py-0">
+                    <a href="index.html" class="nav-item nav-link active">
+                        <img src="img/home.gif" alt="" width="40"><span>Home</span></a>
+
+                    <div class="nav-item dropdown">
+                        <a class="nav-link" data-bs-toggle="dropdown">
+                            <img src="img/about.gif" width="40" alt=""><span>About Us</span>
+                        </a>
+                        <div class="dropdown-menu m-0">
+                            <a href="about.html" class="dropdown-item">Overview</a>
+                            <a href="director-message.html" class="dropdown-item">Director Message</a>
+                            <a href="ourteam.html" class="dropdown-item">Our Team</a>
+                            <a href="organization-structure.html" class="dropdown-item">Organization Structure</a>
+                            <a href="vision-and-mission.html" class="dropdown-item">Vision & Mission</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+
+                        <a class="nav-link" data-bs-toggle="dropdown">
+                            <img src="img/website.gif" width="40" alt="">
+                            <span> Website Designing</span>
+                        </a>
+                        <div class="dropdown-menu m-0">
+                            <a href="e-commerce-web-design.html" class="dropdown-item">Ecommerce web designing</a>
+                            <a href="responsive-web-design.html" class="dropdown-item">Responsive web design</a>
+                            <a href="static-web-design.html" class="dropdown-item">Static web designing</a>
+                            <a href="dynamic-web-design.html" class="dropdown-item">Dynamic web designing</a>
+                            <a href="custom-web-design.html" class="dropdown-item">Custom web designing</a>
+                            <a href="website-redesign.html" class="dropdown-item">Website redesigning</a>
+                            <a href="seo-web-design.html" class="dropdown-item">SEO web designing</a>
+                        </div>
+                    </div>
+
+                    <div class="nav-item dropdown">
+                        <a class="nav-link" data-bs-toggle="dropdown">
+                            <img src="img/software.gif" width="40" alt="">
+                            <span>Website Development</span>
+                        </a>
+                        <div class="dropdown-menu m-0">
+                            <a href="php-web-development.html" class="dropdown-item">PHP web development</a>
+                            <a href="portal-web-development.html" class="dropdown-item">Portal web development</a>
+                            <a href="custom-web-development.html" class="dropdown-item">Custom web development</a>
+                            <a href="cms-web-development.html" class="dropdown-item">CMS web development</a>
+                        </div>
+                    </div>
+                    <a href="software-development.html" class="nav-item nav-link">
+                        <img src="img/software-development.gif  " width="40" alt="">
+                        <span>Software Development</span>
+                    </a>
+
+                    <div class="nav-item dropdown">
+                        <a class="nav-link" data-bs-toggle="dropdown">
+                            <img src="img/mobile-application.gif" width="40" alt="">
+                            <span>Mobile Application</span>
+                        </a>
+                        <div class="dropdown-menu m-0">
+                            <a href="android-application.html" class="dropdown-item">Android App</a>
+                            <a href="ios-application.html" class="dropdown-item">IOS App</a>
+                            <a href="hybrid-application.html" class="dropdown-item">Hybrid</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link" data-bs-toggle="dropdown">
+                            <img src="img/seo.gif" width="40" alt="">
+                            <span>SEO</span>
+                        </a>
+                        <div class="dropdown-menu m-0">
+                            <a href="on-page-seo.html" class="dropdown-item">On page optimization</a>
+                            <a href="off-page-seo.html" class="dropdown-item">Off page optimization</a>
+
+                            <a href="link-building-services.html" class="dropdown-item">Link building services</a>
+                            <a href="social-bookmarking-services.html" class="dropdown-item">Social bookmarking
+                                services</a>
+                            <a href="seo-services-in-india.html" class="dropdown-item">SEO Services in india</a>
+                            <a href="seo-services-in-noida.html" class="dropdown-item">SEO Services in noida</a>
+                            <a href="seo-packages.html" class="dropdown-item">SEO packages</a>
+
+                        </div>
+                    </div>
+
+                    <div class="nav-item dropdown">
+                        <a class="nav-link" data-bs-toggle="dropdown">
+                            <img src="img/degital-marketing.gif" width="40" alt="">
+                            <span>Digital Marketing</span>
+                        </a>
+                        <div class="dropdown-menu m-0">
+                            <a href="internet-marketing-seo.html" class="dropdown-item">Internet Marketing</a>
+
+
+                            <!-- Nested dropdown -->
+                            <div class="dropdown-submenu">
+                                <a class="dropdown-item">Google Promotion</a>
+                                <div class="submenu">
+                                    <a href="google-promotion-service.html" class="dropdown-item">Google Promotion
+                                        Service</a>
+                                    <a href="google-ranking-service.html" class="dropdown-item">Google Ranking
+                                        Service</a>
+                                    <a href="google-branding-promotion.html" class="dropdown-item">Google Branding
+                                        Promotion</a>
+                                    <a href="google-adwords-promotion.html" class="dropdown-item">Google Adwords
+                                        Promotion</a>
+                                    <a href="google-adwords-company.html" class="dropdown-item">Google Adwords
+                                        Company</a>
+                                    <a href="google-adwords-services.html" class="dropdown-item">Google Adwords
+                                        Services</a>
+                                    <a href="online-website-promotion.html" class="dropdown-item">Online Website
+                                        Promotion</a>
+                                    <a href="website-promotion-company.html" class="dropdown-item">Website Promotion
+                                        Company</a>
+                                    <a href="promote-business-on-google.html" class="dropdown-item">Promote Business On
+                                        Google</a>
+                                    <a href="google-paid-promotion.html" class="dropdown-item">Google Paid Promotion
+                                    </a>
+                                    <a href="google-search-promotion.html" class="dropdown-item">Google Search
+                                        Promotion</a>
+                                    <a href="web-promotion-company.html" class="dropdown-item">Web Promotion Company</a>
+                                    <a href="seo-website-promotion.html" class="dropdown-item">SEO Website Promotion</a>
+                                    <a href="local-website-promotion.html" class="dropdown-item">Local Website
+                                        Promotion</a>
+                                    <a href="google-shopping-ads-promotion.html" class="dropdown-item">Google Shopping
+                                        Ads Promotion</a>
+                                    <a href="google-marketing-services.html" class="dropdown-item">Google Marketing
+                                        Services</a>
+                                </div>
+                            </div>
+
+                            <!-- Nested dropdown -->
+                            <div class="dropdown-submenu">
+                                <a class="dropdown-item">SMO Service</a>
+                                <div class="submenu">
+                                    <a href="facebook-promotion.html" class="dropdown-item">Facebook Promotion</a>
+                                    <a href="google-plus-promotion.html" class="dropdown-item">Google Plus Promotion</a>
+                                    <a href="twitter-promotion.html" class="dropdown-item">Twitter Promotion</a>
+                                    <a href="linkedin-promotion.html" class="dropdown-item">LinkedIn Promotion</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <a href="blog.html" class="nav-item nav-link">
+                        <img src="img/blog.gif" width="40" alt=""><span>Blog</span></a>
+                    <a href="contact.html" class="nav-item nav-link">
+                        <img src="img/contact.gif" width="40" alt=""><span>Contact Us</span></a>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Blog</h4>
+                <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active text-primary">Blog</li>
+                </ol>
+            </div>
+        </div>
+        <!-- Header End -->
+    </div>
+    <!-- Navbar & Hero End -->
+
+
+    <!-- Blog Start -->
+    <div class="container-fluid blog py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-primary">Our Blog & News</h4>
+                <h1 class="display-5 mb-4">Articles For Pro Traders</h1>
+                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis
+                    cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt
+                    sint dolorem autem obcaecati, ipsam mollitia hic.
+                </p>
+            </div>
+            <div class="owl-carousel blog-carousel wow fadeInUp" data-wow-delay="0.2s">
+                <div class="blog-item p-4">
+                    <div class="blog-img mb-4">
+                        <img src="img/service-1.jpg" class="img-fluid w-100 rounded" alt="">
+                        <div class="blog-title">
+                            <a href="#" class="btn">Dividend Stocks</a>
+                        </div>
+                    </div>
+                    <a href="#" class="h4 d-inline-block mb-3">Options Trading Business?</a>
+                    <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aut aliquam
+                        suscipit error corporis accusamus labore....
+                    </p>
+                    <div class="d-flex align-items-center">
+                        <img src="img/testimonial-1.jpg" class="img-fluid rounded-circle"
+                            style="width: 60px; height: 60px;" alt="">
+                        <div class="ms-3">
+                            <h5>Admin</h5>
+                            <p class="mb-0">October 9, 2025</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-item p-4">
+                    <div class="blog-img mb-4">
+                        <img src="img/service-2.jpg" class="img-fluid w-100 rounded" alt="">
+                        <div class="blog-title">
+                            <a href="#" class="btn">Non-Dividend Stocks</a>
+                        </div>
+                    </div>
+                    <a href="#" class="h4 d-inline-block mb-3">Options Trading Business?</a>
+                    <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aut aliquam
+                        suscipit error corporis accusamus labore....
+                    </p>
+                    <div class="d-flex align-items-center">
+                        <img src="img/testimonial-2.jpg" class="img-fluid rounded-circle"
+                            style="width: 60px; height: 60px;" alt="">
+                        <div class="ms-3">
+                            <h5>Admin</h5>
+                            <p class="mb-0">October 9, 2025</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-item p-4">
+                    <div class="blog-img mb-4">
+                        <img src="img/service-3.jpg" class="img-fluid w-100 rounded" alt="">
+                        <div class="blog-title">
+                            <a href="#" class="btn">Dividend Stocks</a>
+                        </div>
+                    </div>
+                    <a href="#" class="h4 d-inline-block mb-3">Options Trading Business?</a>
+                    <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aut aliquam
+                        suscipit error corporis accusamus labore....
+                    </p>
+                    <div class="d-flex align-items-center">
+                        <img src="img/testimonial-3.jpg" class="img-fluid rounded-circle"
+                            style="width: 60px; height: 60px;" alt="">
+                        <div class="ms-3">
+                            <h5>Admin</h5>
+                            <p class="mb-0">October 9, 2025</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-item p-4">
+                    <div class="blog-img mb-4">
+                        <img src="img/service-4.jpg" class="img-fluid w-100 rounded" alt="">
+                        <div class="blog-title">
+                            <a href="#" class="btn">Non-Dividend Stocks</a>
+                        </div>
+                    </div>
+                    <a href="#" class="h4 d-inline-block mb-3">Options Trading Business?</a>
+                    <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aut aliquam
+                        suscipit error corporis accusamus labore....
+                    </p>
+                    <div class="d-flex align-items-center">
+                        <img src="img/testimonial-1.jpg" class="img-fluid rounded-circle"
+                            style="width: 60px; height: 60px;" alt="">
+                        <div class="ms-3">
+                            <h5>Admin</h5>
+                            <p class="mb-0">October 9, 2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
+
+
+    <!-- Services Start -->
+    <div class="container-fluid service pb-5">
+        <div class="container pb-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-primary">Our Blog & News</h4>
+                <h1 class="display-5 mb-4">We Services provided best offer</h1>
+                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis
+                    cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt
+                    sint dolorem autem obcaecati, ipsam mollitia hic.
+                </p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/ecommerce.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="rounded-bottom p-4">
+                            <a href="#" class="h4 d-inline-block mb-4">Ecommerce Website</a>
+                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint?
+                                Excepturi facilis neque nesciunt similique officiis veritatis,
+                            </p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/service-2.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="rounded-bottom p-4">
+                            <a href="#" class="h4 d-inline-block mb-4">Static Website</a>
+                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint?
+                                Excepturi facilis neque nesciunt similique officiis veritatis,
+                            </p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/service-3.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="rounded-bottom p-4">
+                            <a href="#" class="h4 d-inline-block mb-4">Dynamic Website</a>
+                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint?
+                                Excepturi facilis neque nesciunt similique officiis veritatis,
+                            </p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/service-4.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="rounded-bottom p-4">
+                            <a href="#" class="h4 d-inline-block mb-4">Web Development</a>
+                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint?
+                                Excepturi facilis neque nesciunt similique officiis veritatis,
+                            </p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/service-5.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="rounded-bottom p-4">
+                            <a href="#" class="h4 d-inline-block mb-4">Software Development</a>
+                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint?
+                                Excepturi facilis neque nesciunt similique officiis veritatis,
+                            </p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/service-6.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="rounded-bottom p-4">
+                            <a href="#" class="h4 d-inline-block mb-4">Mobile Development</a>
+                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint?
+                                Excepturi facilis neque nesciunt similique officiis veritatis,
+                            </p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+
+    <!-- Footer Start -->
+    <div class="footerbox">
+        <div class="bg-image"></div>
+
+        <div class="container-fluid colour">
+            <div class="row">
+                <div class="row g-4 justify-content-sm-around border-bottom text-light">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp col-sm-3">
+                        <label><i class="fas fa-envelope text-primary mb-2"></i> : macreel@gmail.com</label><br>
+                        <label><i class="fas fa-phone text-primary"></i> : 9745673845</label>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp col-sm-3"><label class="logo"></label></div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp col-sm-3 mb-5">
+                        <label> <i class="fas fa-map-marker-alt text-primary me-2"></i> : 1234 Maple Street,
+                            Springfield, IL 62704,
+                            USA</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid colour">
+            <div class="row g-4 justify-content-between p-4 ">
+
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp col-sm-3 d-flex flex-column align-items-statrt mt-5"
+                    data-wow-delay="0.2s">
+                    <div class="image1 mb-3"></div>
+                    <div class="border-text">Ecommerce Web Designing</div>
+                    <div class="border-text">Responsive Web Designing</div>
+                    <div class="border-text">Static Web Designing</div>
+                    <div class="border-text">Flash Web Designing</div>
+                    <div class="border-text">Custom Web Designing</div>
+                    <div class="border-text">Website Redesigning</div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp col-sm-3 d-flex flex-column align-items-statrt mt-5"
+                    data-wow-delay="0.2s">
+                    <div class="image2 mb-3"></div>
+                    <div class="border-text">Magento Web Development</div>
+                    <div class="border-text">Wordpress Web Development</div>
+                    <div class="border-text">PHP Web Development</div>
+                    <div class="border-text">Drupal Web Development</div>
+                    <div class="border-text">Joomla Web Development</div>
+                    <div class="border-text">CMS Web Development</div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp col-sm-3 d-flex flex-column align-items-statrt mt-5"
+                    data-wow-delay="0.2s">
+                    <div class="image3 mb-3"></div>
+                    <div class="border-text">Digital Marketing</div>
+                    <div class="border-text">Internet Marketing </div>
+                    <div class="border-text">SEO Services</div>
+                    <div class="border-text">SMO Services</div>
+                    <div class="border-text">Google Adword/PPC </div>
+                    <div class="border-text">Google Promotion Services</div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp col-sm-3 d-flex flex-column  align-items-statrt mt-5 mb-5"
+                    data-wow-delay="0.2s border1">
+                    <div class="image4 mb-3"></div>
+                    <div class="border-text">Portal Development</div>
+                    <div class="border-text">B2B/ B2C Portal </div>
+                    <div class="border-text">Travel Portal</div>
+                    <div class="border-text">Real Estate Portal</div>
+                    <div class="border-text">Job Portal</div>
+                    <div class="border-text">Education Portal </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="container-fluid colour">
+            <div class="row border-top">
+                <div class="col-12 d-flex flex-wrap justify-content-sm-center text-light p-4 border1 ">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="#" class="text-light">SEO Portfolio</a></li><span>|</span>
+                        <li class="list-inline-item"><a href="#" class="text-light">Feedback</a></li><span>|</span>
+                        <li class="list-inline-item"><a href="#" class="text-light">Career</a></li><span>|</span>
+                        <li class="list-inline-item"><a href="#" class="text-light">Contact Us </a></li><span>|</span>
+                        <li class="list-inline-item"><a href="#" class="text-light">Sitemap</a></li><span>|</span>
+                        <li class="list-inline-item"><a href="#" class="text-light">Payment Options</a></li>
+                        <span>|</span>
+                        <li class="list-inline-item"><a href="#" class="text-light">Refund And Cancellation</a></li>
+                        <span>|</span>
+                        <li class="list-inline-item"><a href="#" class="text-light">Testimonial</a></li><span>|</span>
+                        <li class="list-inline-item"><a href="#" class="text-light">Award</a></li><span>|</span>
+                        <li class="list-inline-item"><a href="#" class="text-light">Our Team</a></li><span>|</span>
+                        <li class="list-inline-item"><a href="#" class="text-light">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid footer3 pt-2 pb-2 ">
+            <div class="row">
+                <div class="col-12 d-flex flex-wrap justify-content-sm-around text-light ">
+
+                    <div class="col-sm-6 d-flex flex-column align-items-center ">
+                        <span>Copyright © 2024 - 2025 Macreel Infosoft. All Rights Reserved.</span>
+                    </div>
+                    <div class="col-sm-6 d-flex flex-column align-items-center ">
+                        <span>Rated 5.0/5 based on 6787 reviews on Google</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
