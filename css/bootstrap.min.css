@@ -31,6 +31,10 @@
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0))
 }
 
+.text-shadow{
+    text-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 *,
 *::before,
 *::after {
@@ -8406,6 +8410,11 @@ fieldset:disabled .btn {
 
 .text-reset {
     color: inherit !important
+}
+
+.text-dark-color{
+    color: #043d43 !important;
+    text-shadow: 0 0 5px white;
 }
 
 .bg-primary {
