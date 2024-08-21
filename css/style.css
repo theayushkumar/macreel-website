@@ -117,10 +117,29 @@
 
 /*** Topbar End ***/
 
-.dropdownbox{
+.dropdownbox {
     height: calc(100vh - 140px);
     overflow: auto;
 }
+
+.hoverboxcontent {
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    transition: max-height 0.5s ease;
+    cursor: pointer;
+}
+
+.hoverboxcontent:hover {
+    max-height: 100%;
+    -webkit-line-clamp: unset;
+    color: var(--bs-primary);
+}
+
 
 /*** Navbar ***/
 .navbar-light .navbar-nav .nav-link {
@@ -208,24 +227,25 @@
 
 @media (max-width: 991.98px) {
     .dropdown-submenu {
-        position: static; 
+        position: static;
     }
 
-    .dropdown-submenu:hover > .submenu {
+    .dropdown-submenu:hover>.submenu {
         display: block;
         position: static;
         margin-left: 0;
         margin-top: 5px;
-        width: 100%; 
+        width: 100%;
     }
 
     .submenu {
         display: none;
     }
 
-    .dropdown-submenu.show > .submenu {
+    .dropdown-submenu.show>.submenu {
         display: block;
     }
+
     .navbar-light .navbar-nav .nav-link {
         flex-direction: row;
         gap: 10px;
@@ -491,7 +511,7 @@
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     color: #ffffff;
-    background-color: #2ecc71; 
+    background-color: #2ecc71;
 }
 
 /***Organization structure End**/
