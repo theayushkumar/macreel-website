@@ -29,6 +29,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
+    <link href="css/custom.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -136,16 +137,20 @@
                             <span>Website Development</span>
                         </a>
                         <div class="dropdown-menu m-0">
-                            <a href="php-web-development.html" class="dropdown-item">PHP web development</a>
                             <a href="portal-web-development.html" class="dropdown-item">Portal web development</a>
                             <a href="custom-web-development.html" class="dropdown-item">Custom web development</a>
                             <a href="cms-web-development.html" class="dropdown-item">CMS web development</a>
                         </div>
                     </div>
-                    <a href="software-development.html" class="nav-item nav-link">
-                        <img src="img/software-development.gif  " width="40" alt="">
-                        <span>Software Development</span>
-                    </a>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link" data-bs-toggle="dropdown">
+                            <img src="img/software-development.gif" width="40" alt="">
+                            <span>Software Development</span>
+                        </a>
+                        <div class="dropdown-menu m-0">
+                            <a href="crm.html" class="dropdown-item">CRM</a>
+                        </div>
+                    </div>
 
                     <div class="nav-item dropdown">
                         <a class="nav-link" data-bs-toggle="dropdown">
@@ -268,11 +273,9 @@
 
 
     <!-- About Start -->
-    <div class="container-fluid about py-5">
+    <div class="container-fluid about py-2">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
-
-
                 <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s">
                     <div>
                         <h4 class="text-primary mb-2">Organization Structure</h4>
@@ -283,19 +286,12 @@
                             structure is key to delivering top-notch IT solutions that meet the diverse needs of our
                             clients.
                         </p>
-
-
                     </div>
                 </div>
 
                 <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
-                    <div class="bg-primary rounded position-relative overflow-hidden">
-                        <img src="img/page-about-1.jpg" class="img-fluid rounded w-100" alt="">
-                        <div class="" style="position: absolute; top: -20px; left: 10px; transform: rotate(90deg);">
-                            <img src="img/about-4.png" class="img-fluid"
-                                style="width: 100px; height: 150px; opacity: 0.9;" alt="">
-                        </div>
-
+                    <div class="bg-primary rounded position-relative overflow-hidden img-container">
+                        <img src="img/about-5.jpg" class="img-fluid rounded w-100" alt="">
                     </div>
                 </div>
             </div>
@@ -304,62 +300,9 @@
     <!-- About End -->
 
     <!--Organization Structure-->
-    <div class="container ">
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-4 mb-3">
-                <div class="p-2 border d-flex align-items-center flex-column border rounded wow fadeInUp card-hover-effect"
-                    data-wow-delay="0.2s">
-                    <h5>CEO</h5>
-                    <p>Chief Executive Officer</p>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 mb-3">
-                <div class="p-2 border  d-flex align-items-center flex-column border rounded wow fadeInUp card-hover-effect"
-                    data-wow-delay="0.2s">
-                    <h5>CTO</h5>
-                    <p>Chief technology Officer</p>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 mb-3">
-                <div class="p-2 border  d-flex align-items-center flex-column border rounded wow fadeInUp card-hover-effect"
-                    data-wow-delay="0.2s">
-                    <h5>CFO</h5>
-                    <p>Chief Financial Officer</p>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 mb-3">
-                <div class="p-2 border  d-flex align-items-center flex-column border rounded wow fadeInUp card-hover-effect"
-                    data-wow-delay="0.2s">
-                    <h5>Accountant</h5>
-                    <p>Accountant</p>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 mb-3">
-                <div class="p-2 border  d-flex align-items-center flex-column border rounded wow fadeInUp card-hover-effect"
-                    data-wow-delay="0.2s">
-                    <h5>Financial Analyst</h5>
-                    <p>Financial Analyst</p>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4 mb-3">
-                <div class="p-2 border  d-flex align-items-center flex-column border rounded  wow fadeInUp card-hover-effect"
-                    data-wow-delay="0.2s">
-                    <h5>Software Engineer</h5>
-                    <p>Software Engineer</p>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 mb-3">
-                <div class="p-2 border  d-flex align-items-center flex-column border rounded wow fadeInUp card-hover-effect"
-                    data-wow-delay="0.2s">
-                    <h5>Tech Lead </h5>
-                    <p>technology Lead</p>
-                </div>
-            </div>
-        </div>
+    <div class="d-flex justify-content-center img-container mb-5">
+        <img src="/img/organazation-structure.jpeg" class="img-fluid" alt="">
     </div>
-    <!--Organization End-->
-
 
     <!-- Footer Start -->
     <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
