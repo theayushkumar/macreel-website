@@ -403,6 +403,7 @@
     padding-top: 120px;
     display: flex;
     align-items: center;
+    background-color: rgba(9, 30, 62, .3);
 }
 
 @media (max-width: 991px) {
@@ -412,6 +413,14 @@
 }
 
 @media (max-width: 767px) {
+
+    .header-carousel .header-carousel-item,
+    .header-carousel .header-carousel-item img {
+        height: 320px;
+    }
+    .navtext{
+        display: none;
+    }
     .header-carousel .owl-nav .owl-prev {
         left: 50%;
         transform: translateX(-50%);
@@ -470,7 +479,7 @@
 .bg-breadcrumb {
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/carousel-1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/carousel-3.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

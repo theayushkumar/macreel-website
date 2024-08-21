@@ -26,16 +26,13 @@ li {
     border-radius: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .image-section img {
     width: 100%;
     height: auto;
     border-radius: 0.5rem;
 }
-@media (max-width: 768px) {
-    .row {
-        flex-direction: column-reverse;
-    }
-}
+
 /***E-commerce Responsive End**/
 
 .img-fluid {
@@ -44,4 +41,10 @@ li {
 
 .img-container:hover .img-fluid {
     transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column-reverse;
+    }
 }
