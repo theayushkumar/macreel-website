@@ -437,6 +437,7 @@
         transform: translateX(-50%);
         margin-left: -45px;
         margin-bottom: -20px;
+        display: none;
     }
 
 
@@ -445,6 +446,7 @@
         transform: translateX(-50%);
         margin-left: 45px;
         margin-bottom: -20px;
+        display: none;
     }
 }
 
