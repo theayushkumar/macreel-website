@@ -415,8 +415,15 @@
 }
 
 @media (max-width: 767px) {
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 15px;
+    }
     .navbar .dropdown-toggle::after {
        display: block;
+       position: absolute;
+       top: 13px;
+       font-size: 24px;
+       right: 0px;
     }
 
     .header-carousel .header-carousel-item .carousel-caption {
@@ -503,7 +510,7 @@
     position: relative;
     overflow: hidden;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/carousel-3.webp);
-    background-position: center center;
+    /* background-position: center center; */
     background-repeat: no-repeat;
     background-size: cover;
     padding: 140px 0 60px 0;
