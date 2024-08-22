@@ -191,6 +191,7 @@
     font-weight: 600;
     vertical-align: middle;
     margin-left: 8px;
+    display:none;
 }
 
 .dropdown .dropdown-menu a:hover {
@@ -414,6 +415,9 @@
 }
 
 @media (max-width: 767px) {
+    .navbar .dropdown-toggle::after {
+       display: block;
+    }
 
     .header-carousel .header-carousel-item .carousel-caption {
         position: absolute;
