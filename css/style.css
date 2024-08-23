@@ -18,6 +18,12 @@ a[href="analytics-and-reporting.html"] {
 /* .bg-breadcrumb{
     display: none;
 } */
+
+/* .dropdownbox {
+    height: calc(100vh - 140px);
+    overflow: auto;
+} */
+
  
 /* display none for custom end*/
 
@@ -142,10 +148,6 @@ a[href="analytics-and-reporting.html"] {
 
 /*** Topbar End ***/
 
-.dropdownbox {
-    height: calc(100vh - 140px);
-    overflow: auto;
-}
 
 .hoverboxcontent {
     position: relative;
