@@ -1,3 +1,18 @@
+/* display none for custom start*/
+a[href="seo-packages.html"] {
+    display: none;
+}
+
+a[href="social-bookmarking-services.html"] {
+    display: none;
+}
+/* .bg-breadcrumb{
+    display: none;
+} */
+ 
+/* display none for custom end*/
+
+
 /*** Spinner Start ***/
 /*** Spinner ***/
 #spinner {
@@ -12,6 +27,7 @@
     visibility: visible;
     opacity: 1;
 }
+
 
 /*** Spinner End ***/
 
@@ -191,7 +207,7 @@
     font-weight: 600;
     vertical-align: middle;
     margin-left: 8px;
-    display:none;
+    display: none;
 }
 
 .dropdown .dropdown-menu a:hover {
@@ -415,15 +431,16 @@
 }
 
 @media (max-width: 767px) {
-    .navbar-light .navbar-nav .nav-link{
+    .navbar-light .navbar-nav .nav-link {
         font-size: 15px;
     }
+
     .navbar .dropdown-toggle::after {
-       display: block;
-       position: absolute;
-       top: 13px;
-       font-size: 24px;
-       right: 0px;
+        display: block;
+        position: absolute;
+        top: 13px;
+        font-size: 24px;
+        right: 0px;
     }
 
     .header-carousel .header-carousel-item .carousel-caption {
