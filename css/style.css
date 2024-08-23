@@ -855,6 +855,49 @@
 
 /*** Team End ***/
 
+/*** our clients start ***/
+.client .client-item {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 0 25px 25px 25px;
+}
+
+.client .client-item::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 50px);
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    background: var(--bs-light);
+    z-index: -1;
+}
+
+.client .client-item .client-img {
+    display: flex;
+    justify-content: center;
+}
+
+.client .client-item .client-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 5px solid var(--bs-light);
+    border-style: double;
+    background: var(--bs-white);
+}
+
+
+
+.client-carousel .owl-stage-outer {
+    margin-top: 58px;
+    margin-right: -1px;
+}
+
+/*** our clients end ***/
+
+
 /*** Testimonial Start ***/
 .testimonial .testimonial-item {
     position: relative;
