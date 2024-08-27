@@ -304,10 +304,9 @@
                                     <div
                                         class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
                                         <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2"
-                                            href="enquiry-form.html">
+                                            data-bs-toggle="modal" data-bs-target="#enquiryModal">
                                             Enquiry
                                         </a>
-                                        
                                     </div>
                                 </div>
                             </div>
@@ -336,10 +335,9 @@
                                     <div
                                         class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
                                         <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2"
-                                            href="enquiry-form.html">
+                                            data-bs-toggle="modal" data-bs-target="#enquiryModal">
                                             Enquiry
                                         </a>
-                                        
                                     </div>
                                 </div>
                             </div>
@@ -347,7 +345,40 @@
                     </div>
                 </div>
             </div>
+        </div>
 
+        <!-- Bootstrap Modal Structure -->
+        <div class="modal fade  mt-sm-6" id="enquiryModal" tabindex="-1" aria-labelledby="enquiryModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="enquiryModalLabel">Enquiry Form</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Your form content goes here -->
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" placeholder="Enter your email address"
+                                    id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" placeholder="Enter your message" rows="3"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- Carousel End -->
     </div>
