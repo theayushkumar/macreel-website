@@ -8915,6 +8915,9 @@ fieldset:disabled .btn {
     .mt-sm-5 {
         margin-top: 3rem !important
     }
+    .mt-sm-6 {
+        margin-top: 5rem !important
+    }
 
     .mt-sm-auto {
         margin-top: auto !important
