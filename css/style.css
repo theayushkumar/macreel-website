@@ -24,6 +24,8 @@ a[href="analytics-and-reporting.html"] {
     overflow: auto;
 } */
 
+
+
  
 /* display none for custom end*/
 
@@ -245,7 +247,7 @@ a[href="analytics-and-reporting.html"] {
     left: 100%;
     background-color: whitesmoke;
     margin-top: -1px;
-    margin-left: 5px;
+    /* margin-left: 5px; */
     max-height: 400px;
     overflow: auto;
 }
