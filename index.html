@@ -1220,7 +1220,7 @@
     <!-- Portfolio Start -->
 
     <div class="container-fluid py-5">
-        <div class="text-center mx-auto pb-5 wow fadeInUp py-3" data-wow-delay="0.2s" style="max-width: 800px;">
+        <div class="text-center mx-auto pb-5 py-3" style="max-width: 800px;">
             <h4 class="text-primary">Latest Portfolio</h4>
             <p class="mb-0">
                 At Macreel Infosoft, we pride ourselves on delivering cutting-edge IT solutions that drive innovation
@@ -1228,26 +1228,45 @@
                 industries. Here’s a glimpse of our recent projects:
             </p>
         </div>
-        <div class="container py-3">
-            <div class="row g-5 align-items-center">
-                <div class="col-xl-4 wow fadeInLeft" data-wow-delay="0.2s">
-                    <div class="bg-primary rounded position-relative overflow-hidden img-container">
-                        <img src="img/about-us-img.jpg" class="img-fluid rounded w-100" alt="">
+        <div class="container py-3 " >
+            <div class="row g-5 _align-items-center">
+                <div class="col-xl-4">
+                    <div class="rounded position-relative img-container portfolioBox">
+                        <img src="img/mac.png" class="img-fluid rounded w-100" data-bs-toggle="modal"
+                            data-bs-target="#imageModal" alt="Project 1">
                     </div>
                 </div>
-                <div class="col-xl-4 wow fadeInLeft" data-wow-delay="0.2s">
-                    <div class="bg-primary rounded position-relative overflow-hidden img-container">
-                        <img src="img/about-us-img.jpg" class="img-fluid rounded w-100" alt="">
+                <div class="col-xl-4">
+                    <div class="rounded position-relative img-container portfolioBox">
+                        <img src="img/about-us-img.jpg" class="img-fluid rounded w-100" data-bs-toggle="modal"
+                            data-bs-target="#imageModal" alt="Project 2">
                     </div>
                 </div>
-                <div class="col-xl-4 wow fadeInLeft" data-wow-delay="0.2s">
-                    <div class="bg-primary rounded position-relative overflow-hidden img-container">
-                        <img src="img/about-us-img.jpg" class="img-fluid rounded w-100" alt="">
+                <div class="col-xl-4">
+                    <div class="rounded position-relative img-container portfolioBox">
+                        <img src="img/mac.png" class="img-fluid rounded w-100" data-bs-toggle="modal"
+                            data-bs-target="#imageModal" alt="Project 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body text-center">
+                        <img id="modalImage" src="" alt="" class="img-fluid">
+                        <p id="modalCaption" class="mt-3"></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 
     <!-- Portfolio End -->
 
