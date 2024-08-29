@@ -798,6 +798,81 @@ a[href="analytics-and-reporting.html"] {
 
 /*** Blog End ***/
 
+/*** portfolio Start ***/
+.portfoliopro .portfoliopro-item {
+    border-radius: 10px;
+    background: var(--bs-white);
+    box-shadow: inset 0 0 45px rgba(0, 0, 0, .1);
+    transition: 0.5s;
+}
+
+.portfoliopro .portfoliopro-item a {
+    transition: 0.5s;
+}
+
+.portfoliopro .portfoliopro-item:hover a:hover {
+    color: var(--bs-primary);
+}
+
+.portfoliopro .portfoliopro-item:hover .portfoliopro-img::after {
+    opacity: 1;
+}
+
+.portfoliopro .portfoliopro-item .portfoliopro-img .portfoliopro-title {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 5;
+}
+
+.portfoliopro .portfoliopro-item .portfoliopro-img .portfoliopro-title a {
+    color: var(--bs-white);
+    background: var(--bs-primary);
+    transition: 0.5s;
+}
+
+.portfoliopro .portfoliopro-item:hover .portfoliopro-img .portfoliopro-title a:hover {
+    color: var(--bs-dark);
+}
+
+.portfoliopro-carousel .owl-stage-outer {
+    margin-top: 58px;
+}
+
+.portfoliopro .owl-nav .owl-prev {
+    position: absolute;
+    top: -58px;
+    left: 0;
+    background: var(--bs-primary);
+    color: var(--bs-white);
+    padding: 6px 35px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.portfoliopro .owl-nav .owl-prev:hover {
+    background: var(--bs-dark);
+    color: var(--bs-primary);
+}
+
+.portfoliopro .owl-nav .owl-next {
+    position: absolute;
+    top: -58px;
+    right: 0;
+    background: var(--bs-primary);
+    color: var(--bs-white);
+    padding: 6px 35px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.portfoliopro .owl-nav .owl-next:hover {
+    background: var(--bs-dark);
+    color: var(--bs-primary);
+}
+
+/*** portfolio End ***/
+
 
 
 /*** FAQs Start ***/
