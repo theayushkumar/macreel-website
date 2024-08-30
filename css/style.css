@@ -18,8 +18,8 @@ a[href="seo-services-in-noida.html"] {
 a[href="analytics-and-reporting.html"] {
     display: none;
 }
-
-/* .bg-breadcrumb{
+/* 
+.bg-breadcrumb{
     display: none;
 } */
 
@@ -371,6 +371,7 @@ a[href="analytics-and-reporting.html"] {
         left: 0;
         background-color: var(--bs-white);
         z-index: 999;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
 
     .sticky-top.navbar-light {

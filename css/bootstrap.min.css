@@ -563,6 +563,17 @@ progress {
         font-size: 2.5rem
     }
 }
+.display-7 {
+    font-size: calc(0.7rem + 1.5vw);
+    font-weight: 700;
+    line-height: 1.2
+}
+
+@media(min-width: 1200px) {
+    .display-6 {
+        font-size: 2.5rem
+    }
+}
 
 .list-unstyled {
     padding-left: 0;
@@ -8056,7 +8067,8 @@ fieldset:disabled .btn {
 }
 
 .p-0 {
-    padding: 0 !important
+    padding: 0 !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .p-1 {
@@ -8161,6 +8173,9 @@ fieldset:disabled .btn {
 
 .pt-5 {
     padding-top: 3rem !important
+}
+.pt-6 {
+    padding-top: 2rem !important
 }
 
 .pe-0 {
