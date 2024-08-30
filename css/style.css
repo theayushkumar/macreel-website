@@ -19,7 +19,8 @@ a[href="analytics-and-reporting.html"] {
     display: none;
 }
 
-/* .bg-breadcrumb{
+/* 
+.bg-breadcrumb{
     display: none;
 } */
 
@@ -371,6 +372,7 @@ a[href="analytics-and-reporting.html"] {
         left: 0;
         background-color: var(--bs-white);
         z-index: 999;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
 
     .sticky-top.navbar-light {
@@ -567,42 +569,6 @@ a[href="analytics-and-reporting.html"] {
 }
 
 /*** Carousel Hero Header End ***/
-
-
-/*** Single Page Hero Header Start ***/
-.bg-breadcrumb {
-    position: relative;
-    overflow: hidden;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/carousel-3.webp);
-    /* background-position: center center; */
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 140px 0 60px 0;
-    transition: 0.5s;
-}
-
-@media (min-width: 992px) {
-    .bg-breadcrumb {
-        padding: 140px 0 60px 0;
-    }
-}
-
-@media (max-width: 991px) {
-    .bg-breadcrumb {
-        padding: 60px 0 60px 0;
-    }
-}
-
-.bg-breadcrumb .breadcrumb {
-    position: relative;
-}
-
-.bg-breadcrumb .breadcrumb .breadcrumb-item a {
-    color: var(--bs-white);
-}
-
-/*** Single Page Hero Header End ***/
-
 
 
 /***Organization structure**/
